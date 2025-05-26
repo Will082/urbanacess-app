@@ -32,7 +32,7 @@ Antes de começar, certifique-se de ter instalado:
 1.  **Clonar o Repositório:**
 
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO_GIT>
+    git clone <https://github.com/Will082/urbanacess-app.git>
     cd <NOME_DA_PASTA_DO_PROJETO> # Ex: cd urbanacess-app
     ```
 
