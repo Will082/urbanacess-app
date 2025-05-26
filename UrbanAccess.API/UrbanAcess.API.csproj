@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework> <!-- Ou net6.0, net7.0 -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Se você tiver um ID de usuário específico para contêineres Docker, pode adicionar aqui -->
+    <!-- <UserSecretsId>...</UserSecretsId> -->
+    <!-- AssemblyName pode ser definido se necessário, mas geralmente é inferido -->
+    <!-- <AssemblyName>UrbanAccess.API</AssemblyName> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Pacotes NuGet necessários para seu código -->
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" /> <!-- Ajuste a versão conforme o TargetFramework -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" /> <!-- Ajuste a versão -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" /> <!-- Opcional, para suporte a Docker -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" /> <!-- Ou versão mais recente -->
+
+    <!-- Referências a outros projetos, se houver -->
+    <!-- <ProjectReference Include="../OutroProjeto/OutroProjeto.csproj" /> -->
+  </ItemGroup>
+
+</Project>

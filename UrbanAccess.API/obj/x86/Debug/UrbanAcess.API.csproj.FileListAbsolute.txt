@@ -1,0 +1,2 @@
+D:\EstudosProgramacao\ReactRepos\urbanacess-app\UrbanAccess.API\obj\x86\Debug\UrbanAcess.API.csproj.AssemblyReference.cache
+D:\EstudosProgramacao\ReactRepos\urbanacess-app\UrbanAccess.API\obj\x86\Debug\UrbanAcess.API.csproj.CoreCompileInputs.cache
